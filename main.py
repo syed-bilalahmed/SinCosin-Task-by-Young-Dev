@@ -18,7 +18,7 @@ plt.title('Sine and Cosine Graphs')
 plt.xlabel('Angle (radians)')
 plt.ylabel('Value')
 plt.axhline(0, color='black', lw=0.5, ls='--')  # x-axis
-plt.axvline(0, color='black', lw=0.5, ls='--')  # y-axis
+plt.axvline(0, color='red', lw=0.5, ls='--')  # y-axis
 plt.grid()
 plt.legend()  # Show legend
 
